@@ -93,10 +93,6 @@ public class SignupLoginPage extends BasePage{
 		btn_login.click();
 	}
 	
-	public void navigateBack() {
-		driver.navigate().back();
-	}
-	
 	//signin validations
 	public boolean validateMissingSigninEmailField() {
 		waitHelper().until(ExpectedConditions.attributeContains(txt_loginEmail, "validationMessage", "Please fill out this field."));

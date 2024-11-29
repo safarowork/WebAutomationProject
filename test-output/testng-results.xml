@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-28T22:02:41 IST" name="Default suite" finished-at="2024-11-28T22:03:05 IST" duration-ms="24695">
+  <suite started-at="2024-11-29T14:55:20 IST" name="Default suite" finished-at="2024-11-29T14:55:37 IST" duration-ms="17045">
     <groups>
     </groups>
-    <test started-at="2024-11-28T22:02:41 IST" name="Default test" finished-at="2024-11-28T22:03:05 IST" duration-ms="24695">
-      <class name="testCases.dasa">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.dasa@5fe1ce85]" started-at="2024-11-28T22:02:41 IST" name="setUp" finished-at="2024-11-28T22:02:56 IST" duration-ms="15093" status="PASS">
+    <test started-at="2024-11-29T14:55:20 IST" name="Default test" finished-at="2024-11-29T14:55:37 IST" duration-ms="17045">
+      <class name="testCases.TC_Search_006">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC_Search_006@5fe1ce85]" started-at="2024-11-29T14:55:20 IST" name="setUp" finished-at="2024-11-29T14:55:28 IST" duration-ms="7906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testExistingUserSignUp()[pri:0, instance:testCases.dasa@5fe1ce85]" started-at="2024-11-28T22:02:56 IST" name="testExistingUserSignUp" finished-at="2024-11-28T22:03:05 IST" duration-ms="9233" status="PASS">
+        <test-method signature="testSearchProductviaSearchBtn()[pri:0, instance:testCases.TC_Search_006@5fe1ce85]" started-at="2024-11-29T14:55:28 IST" name="testSearchProductviaSearchBtn" finished-at="2024-11-29T14:55:37 IST" duration-ms="8886" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testExistingUserSignUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.dasa@5fe1ce85]" started-at="2024-11-28T22:03:05 IST" name="tearDown" finished-at="2024-11-28T22:03:05 IST" duration-ms="331" status="PASS">
+        </test-method> <!-- testSearchProductviaSearchBtn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_Search_006@5fe1ce85]" started-at="2024-11-29T14:55:37 IST" name="tearDown" finished-at="2024-11-29T14:55:37 IST" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.dasa -->
+      </class> <!-- testCases.TC_Search_006 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
