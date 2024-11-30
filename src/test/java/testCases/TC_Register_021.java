@@ -26,12 +26,8 @@ public class TC_Register_021 extends BaseClass{
 		
 		boolean flag=false;
 		for(String i:result) {
-			if(i.equals("true")) {
+			if(i.equals("true")) 
 				flag = true;
-			}
-			else {
-				flag=false;
-			}
 		}
 		Assert.assertEquals(flag, true);
 		
