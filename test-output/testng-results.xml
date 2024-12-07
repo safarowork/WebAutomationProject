@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-01T00:12:21 IST" name="Default suite" finished-at="2024-12-01T00:12:55 IST" duration-ms="33969">
+  <suite started-at="2024-12-07T11:31:56 IST" name="Default suite" finished-at="2024-12-07T11:32:30 IST" duration-ms="34085">
     <groups>
     </groups>
-    <test started-at="2024-12-01T00:12:21 IST" name="Default test" finished-at="2024-12-01T00:12:55 IST" duration-ms="33969">
-      <class name="testCases.TC_Cart_013">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC_Cart_013@5fe1ce85]" started-at="2024-12-01T00:12:21 IST" name="setUp" finished-at="2024-12-01T00:12:30 IST" duration-ms="9273" status="PASS">
+    <test started-at="2024-12-07T11:31:56 IST" name="Default test" finished-at="2024-12-07T11:32:30 IST" duration-ms="34085">
+      <class name="testCases.TC_Register_007">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC_Register_007@5fe1ce85]" started-at="2024-12-07T11:31:56 IST" name="setUp" finished-at="2024-12-07T11:32:01 IST" duration-ms="4713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testItemDeletionFromMultipleCartItems()[pri:0, instance:testCases.TC_Cart_013@5fe1ce85]" started-at="2024-12-01T00:12:30 IST" name="testItemDeletionFromMultipleCartItems" finished-at="2024-12-01T00:12:55 IST" duration-ms="24465" status="PASS">
+        <test-method signature="testSignUpWithMandatoryFieldsOnly()[pri:1, instance:testCases.TC_Register_007@5fe1ce85]" started-at="2024-12-07T11:32:01 IST" name="testSignUpWithMandatoryFieldsOnly" finished-at="2024-12-07T11:32:30 IST" duration-ms="28996" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testItemDeletionFromMultipleCartItems -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_Cart_013@5fe1ce85]" started-at="2024-12-01T00:12:55 IST" name="tearDown" finished-at="2024-12-01T00:12:55 IST" duration-ms="215" status="PASS">
+        </test-method> <!-- testSignUpWithMandatoryFieldsOnly -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_Register_007@5fe1ce85]" started-at="2024-12-07T11:32:30 IST" name="tearDown" finished-at="2024-12-07T11:32:30 IST" duration-ms="338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_Cart_013 -->
+      </class> <!-- testCases.TC_Register_007 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

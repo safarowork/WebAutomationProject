@@ -13,7 +13,7 @@ public class TC_Register_020 extends BaseClass{
 	SignupLoginPage signuppage;
 
 	@Test(priority=1)
-	public void testSignUpWithMandatoryFieldsOnly() {
+	public void testInvalidPhoneNumber() {
 		signuppage = new SignupLoginPage(driver);
 		homepage = new HomePage(driver);
 

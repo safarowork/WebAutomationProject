@@ -15,7 +15,7 @@ public class TC_Cart_013 extends BaseClass {
 	CartPage cart;
 
 	@Test()
-	public void testItemDeletionFromMultipleCartItems() throws InterruptedException {
+	public void testDeletionOfAllItemsFromCart() throws InterruptedException {
 		homepage = new HomePage(driver);
 		searchpage = new SearchPage(driver);
 		cart = new CartPage(driver);
