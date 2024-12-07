@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<listeners>
 		<listener class-name="utilities.ExtentReportManager" />
-		<listener class-name="utilities.RetryListener" />
+<!-- 		<listener class-name="utilities.RetryListener" />  -->
 	</listeners>
 	<test name="Test">
 		<classes>
