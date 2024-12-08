@@ -13,7 +13,7 @@ public class TC_Search_005 extends BaseClass{
 	SearchPage searchpage;
 	
 	@Test()
-	public void testSearchProductviaSearchBtn() {
+	public void testSearchProductDetails() {
 		
 		homepage = new HomePage(driver);
 		searchpage = new SearchPage(driver);
@@ -28,5 +28,4 @@ public class TC_Search_005 extends BaseClass{
 		Assert.assertEquals(searchpage.validateSearchProduct().contains("product_details"), true);
 		
 	}
-
 }

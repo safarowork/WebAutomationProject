@@ -13,7 +13,7 @@ public class TC_Register_016 extends BaseClass{
 	SignupLoginPage signuppage;
 
 	@Test
-	public void testSignUpWithoutPhone() {
+	public void testSignUpAllWithAllFieldsofAccountInfoEmpty() {
 		signuppage = new SignupLoginPage(driver);
 		homepage = new HomePage(driver);
 

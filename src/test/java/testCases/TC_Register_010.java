@@ -13,7 +13,7 @@ public class TC_Register_010 extends BaseClass{
 	SignupLoginPage signuppage;
 
 	@Test
-	public void testSignUpWithoutAddressLastName() {
+	public void testSignUpWithoutLastName() {
 		signuppage = new SignupLoginPage(driver);
 		homepage = new HomePage(driver);
 
@@ -34,7 +34,7 @@ public class TC_Register_010 extends BaseClass{
 		signuppage.setPhone(fakerData().phoneNumber().cellPhone());
 		signuppage.clickCreateAccount();
 
-		Assert.assertEquals(signuppage.validateMissingAddressLastNameField(), true);
+		Assert.assertEquals(signuppage.validateMissingLastNameField(), true);
 	}
 
 

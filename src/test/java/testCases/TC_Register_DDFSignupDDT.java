@@ -200,7 +200,7 @@ public class TC_Register_DDFSignupDDT extends BaseClass {
 				signuppage.setPhone(mobile);
 				signuppage.clickCreateAccount();
 
-				Assert.assertEquals(signuppage.validateMissingAddressLastNameField(), true);
+				Assert.assertEquals(signuppage.validateMissingLastNameField(), true);
 				homepage.clickSinupLogin();
 			}
 			else if(signuppage.validateSignUP()==false)

@@ -13,7 +13,7 @@ public class TC_Register_019 extends BaseClass{
 	SignupLoginPage signuppage;
 
 	@Test
-	public void testDisabledAccountInfoEmail() {
+	public void testAccountInfoEmailFieldDisabled() {
 		signuppage = new SignupLoginPage(driver);
 		homepage = new HomePage(driver);
 

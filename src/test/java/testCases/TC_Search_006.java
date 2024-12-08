@@ -13,7 +13,7 @@ public class TC_Search_006 extends BaseClass{
 	SearchPage searchpage;
 	
 	@Test()
-	public void testSearchProductviaSearchBtn() {
+	public void testProductDetailsPageContents() {
 		
 		homepage = new HomePage(driver);
 		searchpage = new SearchPage(driver);

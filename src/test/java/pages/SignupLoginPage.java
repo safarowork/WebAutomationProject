@@ -294,7 +294,7 @@ public class SignupLoginPage extends BasePage{
 			return false;
 	}
 	
-	public boolean validateMissingAddressLastNameField() {
+	public boolean validateMissingLastNameField() {
 		waitHelper().until(ExpectedConditions.attributeContains(txt_addressLname, "validationMessage", "Please fill out this field."));
 		String validationMessage = (String) javaScriptExecutor().executeScript("return arguments[0].validationMessage", txt_addressLname);
 		if(validationMessage.equals("Please fill out this field."))
