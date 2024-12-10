@@ -92,7 +92,6 @@ public class CartPage extends BasePage {
 			String pname = driver.findElement(By.xpath("//table[@id='cart_info_table']//tbody//tr["+i+"]//td[2]//a")).getText();
 			if(pname.equals(prodName)) {
 				status = false;
-				return status;
 			}
 		}
 		return status;

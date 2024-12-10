@@ -37,6 +37,7 @@ public class TC_Cart_010 extends BaseClass {
 		int cartQuantity = Integer.parseInt(cart.displayProductQuantity(productChosen));
 		Double itemPrice = cart.getItemPrice(productChosen);
 		Double totalPrice = cartQuantity*itemPrice;
+		System.out.println("cart quatity: "+cartQuantity);
 		System.out.println("Expected total price: "+ totalPrice);
 		System.out.println("Actual Total Price: " + cart.getItemTotalPrice(productChosen));
 		
