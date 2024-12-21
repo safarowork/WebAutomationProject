@@ -7,7 +7,7 @@
  - Properties file to get app URL, execution environment, username and email
  - Data Driven testing for Register and Sigin functionalities using Excel Sheet as data supplier
  - Log42j for logging with logging level info, debug and Warn
- - Reports: TestNG reports and Extent reports
+ - Reports: TestNG reports and Extent reports 
  - Screenshot upon test failure using ITestListener interface
  - Retry executing failed test cases for three times using 'IRetryAnalyzer' and 'IAnnotationTransformer' interface
  - Base class with Before and After Methods for setUp and tearDown.
