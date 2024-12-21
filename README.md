@@ -101,6 +101,7 @@ public class BaseClass {
 ![ConsoleOutput](https://github.com/user-attachments/assets/9823d53b-8e78-4e02-b590-b72fe4712d49)
 
 ![ExtentReport](https://github.com/user-attachments/assets/02eaa02c-66e8-49a5-b077-96b9843b834b)
+
 ### Remote Execution using Selenium Grid(Standalone configuration)
 - Start Selenium server in standalone mode to run tests remotely
 
@@ -111,4 +112,30 @@ public class BaseClass {
 - Confirm test execution
 
 ![image](https://github.com/user-attachments/assets/98b6699b-9869-4bb3-b536-cc42eacfd2c6)
+
+### Running via CI/CD
+
+- Install Maven
+- Add maven-surefire-plugin to pom.xml file
+
+```bash
+<plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-surefire-plugin</artifactId>
+	<version>3.5.0</version>
+	<configuration>
+	<suiteXmlFiles>
+	<suiteXmlFile>{suiteXMLFile}</suiteXmlFile>
+	</suiteXmlFiles>
+	</configuration>
+</plugin>
+```
+
+- From command prompt run
+
+```bash
+  mvn clean test
+```
+
+![CICD](https://github.com/user-attachments/assets/6c7ec5fd-6f22-44fc-b220-7ee9ab076b82)
 
