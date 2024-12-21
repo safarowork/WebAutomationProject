@@ -3,7 +3,7 @@
  - Author: Sana Anwar Farooqui
  - Framework Type: Selenium-TestNG Hybrid framework
  - Tools and techniques used: Java, Maven, Selenium, TestNG, Page Object Model
- - Functionalities Automated: User Account Registration, User sigin, Account Deletion, Search Product and Cart
+ - Functionalities Automated: Account Registration, Signin, Account Deletion, Search and Cart
  - Properties file to get app URL, execution environment, username and email
  - Data Driven testing for Register and Sigin functionalities using Excel Sheet as data supplier
  - Log42j for logging with logging level info, debug and Warn
